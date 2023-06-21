@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #1F2937;
+}
+
+.container .nav-container {
+    padding: 0 200px;
+    min-height: 65vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .navigation-logo {
+    height: 100px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+nav ul {
+    margin-left: auto;
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 0px 0px 0px 20px;
+    color: #B3B7BE;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.title-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.title-section div {
+    flex: 1;
+}
+
+.title-section div:last-child {
+    background-color: #6D747D;
+}
+
+.title-section h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.title-section h6 {
+    color: #B3B7BE;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.title-section button {
+    color: #FFFFFF;
+    background-color: #3B82F6;
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    min-width: 120px;
+    margin-top: 10px;
+}
+
+.title-section .title-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #EDEEEF;
+}

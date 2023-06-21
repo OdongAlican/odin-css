@@ -9,24 +9,27 @@
 }
 
 .container .nav-container {
-    padding: 0 200px;
-    min-height: 65vh;
+    padding: 20px 200px;
+    min-height: 60vh;
 }
 
 nav {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
 }
 
 .container .navigation-logo {
     height: 100px;
-    width: 180px;
+    width: 100px;
     display: flex;
     align-items: center;
     color: #FFFFFF;
     font-weight: bolder;
     font-size: 24px;
+    background-image: url('./images/logo.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 nav ul {
@@ -37,9 +40,14 @@ nav ul {
 
 nav ul li {
     padding: 0px 0px 0px 20px;
-    color: #B3B7BE;
-    font-size: 18px;
+    font-size: 17.5px;
+    font-weight: 400;
     font-weight: lighter;
+}
+
+nav ul li a {
+    color: #B3B7BE;
+    text-decoration: none;
 }
 
 .title-section {
@@ -63,9 +71,9 @@ nav ul li {
 }
 
 .title-section h6 {
-    color: #B3B7BE;
+    color: #E5E7EB;
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: 100;
     margin-top: 10px;
 }
 
@@ -75,15 +83,16 @@ nav ul li {
     border-radius: 6px;
     border: none;
     padding: 10px;
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 500;
     min-width: 120px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .title-section .title-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #EDEEEF;
+    background-image: url('./images/main.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }

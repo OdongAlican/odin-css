@@ -14,11 +14,11 @@ Top Section
 
 
 Middle Section
-![alt text](./screenshots/large/large-top.png)
+![alt text](./screenshots/large/large-middle.png)
 
 
 Lower Section
-![alt text](./screenshots/large/large-top.png)
+![alt text](./screenshots/large/large-bottom.png)
 
 
 ### Medium Screen size

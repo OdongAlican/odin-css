@@ -93,9 +93,9 @@ nav ul li a:hover {
 
 .title-section .title-image {
     background-image: url('./images/main.jpg');
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     height: 300px;
 }
 
@@ -123,9 +123,9 @@ nav ul li a:hover {
     margin: 15px;
     height: 170px;
     border-radius: 10px;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     position: relative;
     border: 4px solid #3B82F6;
 }
@@ -225,4 +225,42 @@ footer {
     padding: 40px;
     font-size: 18px;
     font-weight: 100;
+}
+
+
+@media screen and (max-width: 1350px) {
+    .images-container {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 1080px) {
+    .title-section {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    nav {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+    }
+
+    nav ul {
+        margin-left: '0px';
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        flex-direction: column;
+        margin: 10px 0px;
+    }
 }

@@ -5,6 +5,9 @@ This is a website that talks about various programming languages including Javas
 This website is built using HTML and CSS.
 Add responsive designs to all screen-sizes. 
 
+## Live Link
+[ Project link](https://odongalican.github.io/odin-css/)
+
 ## Diffrent Screen-Sizes
 
 ### Desktop
